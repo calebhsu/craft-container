@@ -9,18 +9,18 @@
         <parameter name="baseRadius" type="int" default="12"/>
         <parameter name="topRadius" type="int" default="20"/>
         
-        <column>
+        <col>
             <solidify>
-                <stack spacing="{{height}}" align="x50 y50">
+                <stack spacing="{{height}}">
                     <circle radius="{{topRadius}}" resolution="{{sides}}"></circle>
                     <circle radius="{{baseRadius}}" resolution="{{sides}}"></circle>
                 </stack>
             </solidify>
-        </column>
+        </col>
     </part>
     
-    <group color="coral">
-        <stack spacing="{{-height + 2}}" align="x50 y50" cut=".hole">
+    <g color="coral">
+        <stack spacing="{{-height + 2}}" cut=".hole">
             <base 
                 baseRadius="{{baseRadius - thickness}}" 
                 topRadius="{{topRadius - thickness}}"
@@ -28,5 +28,5 @@
             ></base>
             <base></base>
         </stack>
-    </group>
+    </g>
 </craft>

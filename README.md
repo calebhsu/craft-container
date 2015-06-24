@@ -14,10 +14,10 @@ Parameterized container primitive for CraftML
 ### Example
 ```html
 <craft>
-    <craft name="basket" module="craft-container"/>
-    <row spacing="1" align="y50">
+    <craft name="basket" module="calebhsu/craft-container"/>
+    <row spacing="1">
         <basket topRadius="10" baseRadius="15" height="20"></basket>
-        <basket baseRadius="10" topRadius="10" height="30" sides="4"></basket>
+        <basket topRadius="15" baseRadius="10"  height="30" sides="4"></basket>
         <basket></basket>
     </row>
 </craft>
